@@ -40,20 +40,20 @@ body {
     line-height: var(--line-height-base);
   }
   
-  a [href] :visited {
+  a [href] {
     color: var(--text-color);  
     text-decoration: none;
   }
 
-  a [href] :hover {
+  a [href] :visited {
     font-style: italic;
   }
 
-  a [href] :active {
+  a [href] :hover {
     text-decoration: underline;
   }
 
-  a [href] {
+  a [href] :active {
     color: var(--color-light-grey);
   }
   
