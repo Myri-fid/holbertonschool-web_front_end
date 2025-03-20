@@ -40,7 +40,7 @@ body {
     line-height: var(--line-height-base);
   }
   
-  a[href] {
+  a {
     color: var(--text-color);  
     text-decoration: none;
   }
@@ -49,11 +49,13 @@ body {
     font-style: italic;
   }
 
-  a[href]:hover {
+  a:link,
+
+  a:hover {
     text-decoration: underline;
   }
 
-  a[href]:active {
+  a:active {
     background-color: var(--color-light-grey);
   }
 
