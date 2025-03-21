@@ -174,7 +174,7 @@ ul.row {
 
 [class^="col-"] {
     float: left;
-    padding: calc(0.5 * 1rem);
+    padding: 0.5rem;
 }
 
 .col-1-3 {
