@@ -188,9 +188,9 @@ body {
 }
 
 .nav .nav-link {
-    position: relative;
     display: block;
     padding: 0.5rem 1rem;
+    position: relative;
 }
 
 .nav .nav-link:hover {
@@ -204,7 +204,7 @@ body {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
