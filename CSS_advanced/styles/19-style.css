@@ -160,11 +160,11 @@ body {
 .row {
   margin: 0;
   padding: 0;
-  list-style-position: none;
+  list-style: none;
 }
 
 .col-1-2-3 {
-  width: 33%33;
+  width: 33.33%;
   float: left;
   padding: 0.5rem;
 }
